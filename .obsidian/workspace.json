@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dsa/algorithms/linked-list.md",
+                "file": "biology/human/anatomy-and-physiology/integrated-body/body-imaging.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linked-list"
+              "title": "body-imaging"
             }
           }
         ]
@@ -182,18 +182,30 @@
   },
   "active": "2feee84e7797d59b",
   "lastOpenFiles": [
-    "dsa/data-structures/linked-list.md",
+    "biology/human/anatomy-and-physiology/integrated-body/key-terms.md",
+    "biology/human/anatomy-and-physiology/integrated-body/body-imaging.md",
+    "biology/human/anatomy-and-physiology/integrated-body",
+    "biology/human/anatomy-and-physiology",
+    "biology/human",
+    "biology",
+    "computing/software/dsa/data-structures/resources/linked-list.webp",
+    "computing/software/dsa/data-structures/resources",
+    "computing/software/dsa/data-structures/linked-list.md",
+    "computing/software/dsa/algorithms/linked-list.md",
+    "computing/software/dsa/data-structures",
+    "computing/software/dsa/algorithms",
+    "computing/software/dsa",
+    "computing/software",
+    "computing",
     "dsa/algorithms/linked-list.md",
-    "dsa/algorithms/Untitled",
-    "resources",
+    "computer-science/software/dsa/data-structures/resources/linked-list.webp",
+    "computer-science/software/dsa/data-structures/linked-list.md",
+    "computer-science/software/dsa/algorithms/linked-list.md",
+    "dsa/data-structures/linked-list.md",
     "dsa/data-structures/resources/linked-list.webp",
-    "dsa/data-structures/resources",
     "dsa/data-structures/linked-list.webp",
     "dsa/linked-list.webp",
     "linked-list.webp",
-    "dsa/algorithms",
-    "dsa/data-structures",
-    "dsa",
     "Untitled.md"
   ]
 }
