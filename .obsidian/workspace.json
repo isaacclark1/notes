@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dsa/data-structures/linked-list.md",
+                "file": "dsa/algorithms/linked-list.md",
                 "mode": "source",
                 "source": false
               },
@@ -183,6 +183,14 @@
   "active": "2feee84e7797d59b",
   "lastOpenFiles": [
     "dsa/data-structures/linked-list.md",
+    "dsa/algorithms/linked-list.md",
+    "dsa/algorithms/Untitled",
+    "resources",
+    "dsa/data-structures/resources/linked-list.webp",
+    "dsa/data-structures/resources",
+    "dsa/data-structures/linked-list.webp",
+    "dsa/linked-list.webp",
+    "linked-list.webp",
     "dsa/algorithms",
     "dsa/data-structures",
     "dsa",
