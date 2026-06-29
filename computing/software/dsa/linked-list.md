@@ -5,10 +5,11 @@
 **Linked List**: a data structure that stores data in an ordered manner. It uses node objects containing data and a "next" pointer that points to the next node in the list.
 
 **Head**: the start node of a linked list.
+**Tail**: The end node of a linked list.
 
 It is essential to keep a reference to the head node of the linked list because the head is the only node from where you can reach all subsequent elements in the linked list. In a normal linked list, you can only go forwards; there is no way to navigate from a node to the previous node.
 
-![Linked List](./resources/linked-list.webp)
+![Linked List](linked-list.webp)
 
 ## Code
 
@@ -18,7 +19,7 @@ struct LinkedListNode
 	int val;
 	LinkedListNode *next
 	LinkedListNode(int val) : val (val), next(nullptr) {}
-}
+};
 
 int main()
 {
@@ -50,3 +51,76 @@ int main()
 	- Arrays are superior in this regard as they have $O(1)$ indexing, while linked lists require $O(n)$ to access an element at a given position.
 
 - Linked lists have a higher memory overhead than arrays. Every node must have extra storage for a "next" pointer to link the node to the following node in the list.
+
+## Dummy Pointers
+
+Sometimes, it can be better to traverse a linked list using a "dummy" pointer so you don't lose the reference to the head.
+
+```c++
+int traverse(ListNode *head)
+{
+	int ans = 0;
+	ListNode *dummy = head;
+	
+	while (dummy != nullptr) {
+		ans += dummy->val;
+		dummy = dummy->next;
+	}
+	
+	return ans;
+}
+```
+
+
+## Algorithms
+
+### Traversal
+
+Iterating through a linked list can be done with a simple loop.
+
+```c++
+void printList(ListNode *head)
+{
+	ListNode *node = head;
+	
+	while (node != nullptr) {
+		std::cout << node << std::endl;
+
+		node = node->next;
+	}
+}
+```
+
+Recursion can also be used:
+
+```c++
+void printList(ListNode *head)
+{
+	if (head == nullptr) return;
+	
+	std::cout << head->val << std::endl;
+	
+	printList(head->next);
+}
+```
+
+### Add Node
+
+```c++
+// prev_node is node at index - 1
+void add_node(ListNode *prev_node, ListNode *node_to_add)
+{
+	node_to_add->next = prev_node->next;
+	prev_node.next = node_to_add;
+}
+```
+
+### Delete Node
+
+```c++
+// prev_node is node at index - 1
+void delete_node(ListNode *prev_node)
+{
+	prev_node->next = prev_node->next->next;
+}
+```
