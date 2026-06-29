@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computing/software/dsa/linked-list.md",
+                "file": "computing/software/dsa/doubly-linked-list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linked-list"
+              "title": "doubly-linked-list"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "2feee84e7797d59b",
   "lastOpenFiles": [
-    "computing/software/dsa/doubly-linked-list.md",
     "computing/software/dsa/linked-list.md",
+    "computing/software/dsa/doubly-linked-list.md",
     "computing/software/dsa/algorithms/linked-list.md",
     "computing/software/dsa/algorithms/doubly-linked-list.md",
     "computing/software/dsa/resources/linked-list.webp",

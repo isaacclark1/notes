@@ -84,7 +84,7 @@ void printList(ListNode *head)
 	ListNode *node = head;
 	
 	while (node != nullptr) {
-		std::cout << node << std::endl;
+		std::cout << node->val << std::endl;
 
 		node = node->next;
 	}
