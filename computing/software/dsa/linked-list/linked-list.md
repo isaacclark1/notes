@@ -9,7 +9,7 @@
 
 It is essential to keep a reference to the head node of the linked list because the head is the only node from where you can reach all subsequent elements in the linked list. In a normal linked list, you can only go forwards; there is no way to navigate from a node to the previous node.
 
-![Linked List](linked-list.webp)
+![Linked List](../resources/linked-list.webp)
 
 ## Code
 

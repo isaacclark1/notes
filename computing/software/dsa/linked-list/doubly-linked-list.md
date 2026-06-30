@@ -4,7 +4,7 @@ A doubly linked list contains nodes that each have a pointer to the *previous* n
 
 In a singly linked list, you need a reference to the node at `index - 1` to add or remove at `index`. This is because we needed to perform operations on the previous node. With a doubly linked list, you only need a reference to the node at `index` because you can simply reference the previous node through the node at `index` through it's previous node pointer.
 
-![doubly linked list](doubly-linked-list.png)
+![doubly linked list](../resources/doubly-linked-list.png)
 
 ## Linked Lists with Sentinel Nodes
 
